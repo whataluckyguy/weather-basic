@@ -1,0 +1,40 @@
+.container {
+  margin-top: 20px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+.card {
+  margin-top: 100px;
+  margin-right: 30%;
+  margin-left: 30%;
+  border: none;
+}
+
+.temp {
+  padding-right: 20vw;
+}
+
+.searchbox {
+  margin: auto;
+  width: 15%;
+  padding-top: 80px;
+}
+
+.input {
+  width: 150px;
+  font-size: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid gray;
+}
+
+button {
+  margin-left: 20px;
+  border: none;
+  color: gray;
+  border-radius: 20px;
+  height: 30px;
+  width: 90px;
+}
