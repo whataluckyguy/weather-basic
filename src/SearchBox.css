@@ -1,0 +1,32 @@
+.searchbox {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 20%;
+  padding: 2vh;
+}
+
+.searchbox > input {
+  font-size: 20px;
+
+  color: var(--app-color) !important;
+  border: 0;
+  text-align: center;
+  background: none;
+  background-color: var(--app-background);
+  border-radius: 30px;
+  height: 35px;
+}
+
+.search_button {
+  font-weight: 700 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  margin-left: 10px !important;
+  color: var(--app-color) !important;
+  background-color: var(--app-background) !important;
+}
+
+.searchbox > input::placeholder {
+  color: var(--app-color);
+}

@@ -1,40 +1,16 @@
-.container {
-  margin-top: 20px;
-  padding-left: 15vw;
-  padding-right: 15vw;
+body {
+  --app-color: #fcf8ec;
+  --app-background: #456268;
 }
+.app {
+  height: 100vh;
+  min-height: 100vh;
+  background-color: #000000;
 
-.card {
-  margin-top: 100px;
-  margin-right: 30%;
-  margin-left: 30%;
-  border: none;
-}
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://images.unsplash.com/photo-1572376636973-049ac950cb53?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=peinge-nakale-yic2OFh8O1c-unsplash.jpg);
 
-.temp {
-  padding-right: 20vw;
-}
-
-.searchbox {
-  margin: auto;
-  width: 15%;
-  padding-top: 80px;
-}
-
-.input {
-  width: 150px;
-  font-size: 20px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid gray;
-}
-
-button {
-  margin-left: 20px;
-  border: none;
-  color: gray;
-  border-radius: 20px;
-  height: 30px;
-  width: 90px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

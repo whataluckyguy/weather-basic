@@ -1,0 +1,39 @@
+.main {
+  margin: auto;
+  /* background-color: var(--app-background); */
+  width: 60%;
+  height: 40%;
+  color: var(--app-color) !important;
+}
+
+.weather_details {
+}
+
+.temperature {
+  font-size: 100px;
+}
+.decription {
+  font-size: 30px;
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+.other_details {
+  font-size: 20px;
+}
+
+.feels_like {
+  padding-right: 20vw;
+  padding-left: 30px;
+}
+
+.min_high {
+  padding-right: 20vw;
+  padding-left: 30px;
+}
+
+.upper {
+  padding-top: 50px;
+}
+.lower {
+  padding-top: 30px;
+}
